@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingBottom="16dp">
+        <TextView
+            android:text="m m 1"
+            style="@style/EditorUnitsStyle"/>
+        <EditText
+            android:id="@+id/mm1_λ"
+            android:hint="λ"
+            style="@style/EditorFieldStyle"/>
+        <EditText
+            android:id="@+id/mm1_μ"
+            android:hint="μ"
+            style="@style/EditorFieldStyle"/>
+
+<Button
+    android:id="@+id/mm1_btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:text="submit">
+</Button>
+
+
+        <!-- Label -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <TextView
+            android:text="L = "
+            style="@style/CategoryStyle" />
+        <TextView
+            android:id="@+id/mm1_L"
+            android:text="0"
+            style="@style/CategoryStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <TextView
+            android:text="Lq = "
+            style="@style/CategoryStyle" />
+        <TextView
+            android:id="@+id/mm1_Lq"
+            android:text="0"
+            style="@style/CategoryStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <TextView
+
+            android:text="W = "
+            style="@style/CategoryStyle" />
+        <TextView
+            android:id="@+id/mm1_W"
+            android:text="0"
+            style="@style/CategoryStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="16dp">
+        <TextView
+            android:text="Wq = "
+            style="@style/CategoryStyle" />
+        <TextView
+            android:id="@+id/mm1_Wq"
+            android:text="0"
+            style="@style/CategoryStyle" />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
